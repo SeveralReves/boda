@@ -1,0 +1,41 @@
+/* resources/scss/_layout.scss */
+
+/* Container básico y responsive */
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+  
+    // Breakpoints para diferentes tamaños de pantalla
+    @media (max-width: 1440px) {
+      max-width: 1200px;
+    }
+    @media (max-width: 1200px) {
+      max-width: 960px;
+    }
+  
+    @media (max-width: 960px) {
+      max-width: 720px;
+    }
+  
+    @media (max-width: 720px) {
+      max-width: 540px;
+    }
+  }
+  
+  /* Container pequeño para formularios o bloques */
+  .container-sm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Clase para ajustar la alineación */
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  

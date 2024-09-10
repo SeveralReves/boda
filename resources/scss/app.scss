@@ -1,0 +1,26 @@
+// resources/scss/app.scss
+
+// Importar reset y layout
+@import 'reset';
+@import 'container';
+@import 'fonts';
+@import 'header';
+@import 'history';
+@import 'gallery';
+
+
+$primary-color: #fff;
+
+body {
+    background-color: $primary-color;
+    font-family: Arial, sans-serif;
+
+    // h1 {
+    //     color: white;
+    //     text-align: center;
+    // }
+
+    // img {
+    //     border: 2px solid darken($primary-color, 20%);
+    // }
+}
