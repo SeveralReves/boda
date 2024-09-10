@@ -13,8 +13,11 @@
 
     @component('components.ourHistory')
     @endcomponent
-    
+
     @component('components.gallery')
+    @endcomponent
+
+    @component('components.gifts')
     @endcomponent
 
     <!-- Aquí montamos el componente Vue principal App.vue -->

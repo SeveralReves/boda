@@ -1,3 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.title {
+    font-family: Corinthia;
+    font-size: 105px;
+    font-weight: 400;
+    line-height: 126px;
+    text-align: center;
+}
+.subtitle {
+    //styleName: Body1/300;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #999999;
+}

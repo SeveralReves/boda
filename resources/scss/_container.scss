@@ -33,9 +33,7 @@
   
   /* Clase para ajustar la alineación */
   .centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    max-width: 1050px;
+    margin: auto;
   }
   

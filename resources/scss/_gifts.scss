@@ -1,0 +1,55 @@
+.gifts {
+    padding: 50px 0;
+    &__title {
+        margin-bottom: 50px;
+    }
+    &__text {
+        margin-bottom: 30px;
+    }
+    &__card {
+        flex: 1;
+        background-color: #fff;
+        padding: 40px 60px 40px 20px;
+        gap: 10px;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0px 0px 40px 0px rgba(231, 103, 103, 0.15);
+        &--title {
+            font-family: Corinthia;
+            font-size: 61px;
+            font-weight: 700;
+            line-height: 73.2px;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        &--span{
+            display: flex;
+            gap: 20px;
+            img{
+                max-width: 50px;
+            }
+        }
+        &--item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px 10px 20px;
+            gap: 10px;
+            border-radius: 10px;
+            background: rgba(2, 77, 74, 1);
+            font-family: Comfortaa;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            color: #fff;
+            flex: 1;
+            &:not(:last-of-type){
+                margin-bottom: 20px;
+            }
+        }
+    }
+    &__grid {
+        display: flex;
+        gap: 30px;
+    }
+}
