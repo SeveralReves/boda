@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel con Blade y Vue</title>
     @vite('resources/scss/app.scss')
-    @vite('resources/js/app.js')
 </head>
 <body>
     <!-- Llamando al componente Blade -->
@@ -16,6 +15,12 @@
     @endcomponent
 
     @component('components.quote-and-date')
+    @endcomponent
+
+    @component('components.invitation')
+    @endcomponent
+
+    @component('components.map')
     @endcomponent
 
     @component('components.gallery')

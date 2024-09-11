@@ -21,6 +21,7 @@
         @endif
         @if (isset($date) && !empty($date))
             <p class="header__date">{{ $date }}</p>
+            <img src="{{asset('/images/icon-header.png')}}" alt="icon header">
         @endif
     </div>
     @if (isset($image_bg) && !empty($image_bg))
