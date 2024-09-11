@@ -1,16 +1,12 @@
-import { createApp } from 'vue';
-import App from './components/App.vue';
-// import HeaderComponent from './components/HeaderComponent.vue';
+import { createApp } from "vue";
+import ConctactComponent from "./components/ConctactComponent.vue";
+import DateComponent from "./components/DateComponent.vue";
 
-// Crear la aplicación Vue principal
-const app = createApp(App);
+// Crear una instancia de Vue para el componente DateComponent
+const dateApp = createApp({});
+dateApp.component("date-component", DateComponent);
+dateApp.mount("#date-app");
 
-// Registrar y montar el componente HeaderComponent dentro del header
-// app.component('HeaderComponent', HeaderComponent);
-
-// Montar la aplicación principal en el contenedor #app
-app.mount('#app');
-
-// Montar el componente HeaderComponent en el contenedor #header-vue
-// const headerApp = createApp(HeaderComponent);
-// headerApp.mount('#header-vue');
+// Crear una instancia de Vue para ContactComponent
+const contactApp = createApp(ConctactComponent);
+contactApp.mount("#contact-app");

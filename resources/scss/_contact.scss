@@ -1,0 +1,82 @@
+.contact {
+    padding: 50px 0 0;
+    margin-bottom: -70px;
+    position: relative;
+    z-index: 2;
+    &__card {
+        margin-top: 30px;
+        background: rgba(255, 255, 255, 1);
+        padding: 80px 120px 150px 120px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 40px 0px rgba(231, 103, 103, 0.15);
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        &--row {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        &--error {
+            color: red;
+        }
+        &--input {
+            background: rgba(248, 247, 247, 1);
+            border: 1px solid rgba(230, 230, 230, 1);
+            border-radius: 10px;
+            padding: 10px;
+        }
+        &--label {
+            font-family: Comfortaa;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            color: #808080;
+
+            .required {
+                color: red;
+            }
+        }
+        &--button {
+            padding: 20px 50px 20px 50px;
+            gap: 10px;
+            border-radius: 20px;
+            background: rgba(1, 76, 70, 1);
+            font-family: Comfortaa;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            color: #fff;
+            margin: 40px auto 0;
+        }
+        &--radio {
+            display: flex;
+            margin-top: 30px;
+            background: #f8f7f7;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+            width: fit-content;
+            border-radius: 20px;
+            overflow: hidden;
+            &-label {
+                font-family: Comfortaa;
+                padding: 25px 30px 25px 30px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19.2px;
+                color: rgba(128, 128, 128, 1);
+                cursor: pointer;
+            }
+            &-input {
+                display: none;
+                &:checked + label {
+                    background: rgb(1 76 70 / 95%);
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

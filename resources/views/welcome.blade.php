@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel con Blade y Vue</title>
     @vite('resources/scss/app.scss')
+    @vite('resources/js/app.js')
 </head>
 <body>
     <!-- Llamando al componente Blade -->
@@ -14,14 +15,21 @@
     @component('components.ourHistory')
     @endcomponent
 
+    @component('components.quote-and-date')
+    @endcomponent
+
     @component('components.gallery')
     @endcomponent
 
     @component('components.gifts')
     @endcomponent
 
-    <!-- Aquí montamos el componente Vue principal App.vue -->
-    <div id="app"></div>
+    @component('components.contact')
+    @endcomponent
+
+    @component('components.footer')
+    @endcomponent
+
 
     @vite('resources/js/app.js')
 </body>

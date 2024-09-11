@@ -1,0 +1,71 @@
+.quote_date {
+    padding: 50px 0;
+    &__quote {
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        &--text {
+            font-family: Cormorant;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 43.2px;
+            text-align: center;
+        }
+        &--name {
+            font-family: Average;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 52.8px;
+            text-align: right;
+            margin-top: 20px;
+        }
+    }
+    &__date {
+        padding: 70px;
+        text-align: center;
+        &--title {
+            font-family: Comfortaa;
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 48px;
+            text-align: center;
+            color: #808080;
+        }
+    }
+}
+
+.date {
+    margin-top: 40px;
+    &__grid {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+    &__item {
+        padding: 20px 35px 20px 35px;
+        border-radius: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 40px 0px rgba(231, 103, 103, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        &--date {
+            font-family: Comfortaa;
+            font-size: 61px;
+            font-weight: 500;
+            line-height: 73.2px;
+            text-align: left;
+            color: #024D4A;
+        }
+        &--label {
+            font-family: Comfortaa;
+            font-size: 31px;
+            font-weight: 500;
+            line-height: 37.2px;
+            text-align: left;
+            color: #024D4A;
+        }
+    }
+}
