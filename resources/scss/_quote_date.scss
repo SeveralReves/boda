@@ -23,6 +23,9 @@
     &__date {
         padding: 70px;
         text-align: center;
+        @media screen and (max-width: 990px) {
+            padding: 25px;
+        }
         &--title {
             font-family: Comfortaa;
             font-size: 40px;
@@ -30,6 +33,9 @@
             line-height: 48px;
             text-align: center;
             color: #808080;
+            @media screen and (max-width: 990px) {
+                font-size: 30px;
+            }
         }
     }
 }
@@ -42,7 +48,7 @@
         justify-content: center;
     }
     &__item {
-        padding: 20px 35px 20px 35px;
+        padding: 20px 35px;
         border-radius: 20px;
         background-color: #fff;
         box-shadow: 0px 0px 40px 0px rgba(231, 103, 103, 0.15);
@@ -51,13 +57,22 @@
         justify-content: center;
         align-items: center;
         width: 130px;
+        @media screen and (max-width: 990px) {
+            width: fit-content;
+            flex: 1;
+            padding: 20px 15px;
+        }
         &--date {
             font-family: Comfortaa;
             font-size: 61px;
             font-weight: 500;
             line-height: 73.2px;
             text-align: left;
-            color: #024D4A;
+            color: #024d4a;
+            @media screen and (max-width: 990px) {
+                font-size: 32px;
+                line-height: 50px;
+            }
         }
         &--label {
             font-family: Comfortaa;
@@ -65,7 +80,11 @@
             font-weight: 500;
             line-height: 37.2px;
             text-align: left;
-            color: #024D4A;
+            color: #024d4a;
+            @media screen and (max-width: 990px) {
+                font-size: 20px;
+                line-height: 30px;
+            }
         }
     }
 }

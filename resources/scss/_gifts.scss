@@ -51,5 +51,8 @@
     &__grid {
         display: flex;
         gap: 30px;
+        @media screen and (max-width: 990px) {
+            flex-direction: column;
+        }
     }
 }

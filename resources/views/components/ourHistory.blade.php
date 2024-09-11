@@ -18,7 +18,7 @@
 
 <section class="history">
     <div class="container">
-        <h2 class="history__title">{{$title}}</h2>
+        <h2 class="history__title title">{{$title}}</h2>
         <div class="history__container ">
             <article class="history__card husband">
                 <h3 class="history__card--title">{{ $husband['name'] }}</h3>

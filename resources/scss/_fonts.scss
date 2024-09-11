@@ -6,10 +6,15 @@
 
 .title {
     font-family: Corinthia;
-    font-size: 105px;
     font-weight: 400;
+    font-size: 105px;
     line-height: 126px;
     text-align: center;
+    @media screen and (max-width: 990px) {
+        font-size: 60px;
+        line-height: 75px;
+        
+    }
 }
 .subtitle {
     //styleName: Body1/300;

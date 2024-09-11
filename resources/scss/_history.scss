@@ -1,31 +1,31 @@
 .history {
     padding: 100px 0;
-    &__title {
-        font-family: Corinthia;
-        font-size: 105px;
-        font-weight: 400;
-        line-height: 126px;
-        text-align: center;
-    }
     &__container {
         display: flex;
         gap: 40px;
         justify-content: space-between;
         margin-top: 40px;
+        @media screen and (max-width: 990px) {
+            flex-direction: column;
+        }
     }
     &__card {
         $me: &;
         flex: 1;
-        &.husband{
-            #{$me}--title{
-                text-align: right;
-            }
-            #{$me}--text{
-                text-align: right;
+        &.husband {
+            @media screen and (min-width: 990px) {
+                #{$me}--title {
+                    text-align: right;
+                }
+                #{$me}--text {
+                    text-align: right;
+                }
             }
         }
-        &.wife{
-            transform: translateY(50px);
+        &.wife {
+            @media screen and (min-width: 990px) {
+                transform: translateY(50px);
+            }
         }
         &--title {
             font-family: Cormorant;
@@ -34,6 +34,11 @@
             line-height: 72px;
             text-align: center;
             margin-bottom: 20px;
+            
+            @media screen and (max-width: 990px) {
+                font-size: 40px;
+                line-height: 52px;
+            }
         }
         &--text {
             font-family: Cormorant;
@@ -41,7 +46,7 @@
             font-weight: 400;
             line-height: 30px;
         }
-        &--image{
+        &--image {
             max-width: 400px;
         }
     }

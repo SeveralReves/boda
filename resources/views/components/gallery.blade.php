@@ -32,7 +32,7 @@
 
 <div class="gallery">
     <div class="container">
-        <h2 class="gallery__title">
+        <h2 class="gallery__title title">
             {{$title}}
         </h2>
         <div class="gallery__grid">
