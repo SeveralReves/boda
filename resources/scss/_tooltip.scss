@@ -1,0 +1,27 @@
+.tooltip {
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: fixed;
+    z-index: 1;
+    top: 40px; /* Ajusta esta posición según donde quieras que aparezca */
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: fit-content;
+}
+
+#copiar-btn {
+    position: relative;
+    margin-top: 50px; /* Ajusta esto según tu diseño */
+}
+
+.show-tooltip {
+    visibility: visible;
+    opacity: 1;
+}

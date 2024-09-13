@@ -4,7 +4,7 @@
         'alt' => 'Logo Victor Darlenys',
     ];
     $image_bg = [
-        'url' => asset('images/footer.png'),
+        'url' => asset('images/footer.jpg'),
         'alt' => 'Logo Victor Darlenys',
     ];
 @endphp

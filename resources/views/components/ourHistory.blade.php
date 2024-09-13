@@ -11,7 +11,7 @@
             'Mi corazón te pertenece desde el día que vi a Cristo obrar a través de ti. ¡Sí, soy doblemente afortunada! decidí amarte todos los días porque puedo estar segura en tu brazos, confiada de ser yo misma y feliz de vivir una vida a tu lado. ¡Gracias por ser el hombre que ama mis defectos! ¡Caminar contigo de la mano siempre será mi mejor pasatiempo!',
     ];
     $image = [
-        'url' => asset('images/&.png'), 
+        'url' => asset('images/&-1.png'), 
         'alt' => '&'
     ];
 @endphp
