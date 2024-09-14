@@ -3,7 +3,7 @@
         'url' => asset('images/invitation.png'),
         'alt' => 'Invitacion Victor Darlenys',
     ];
-    $init_hour = 'Hora de Inicio: 6:00PM';
+    $init_hour = 'Hora de Inicio: 5:00PM';
     $text = 'Ser puntual, es la muestra perfecta de amor y respeto hacia los demas.';
 @endphp
 

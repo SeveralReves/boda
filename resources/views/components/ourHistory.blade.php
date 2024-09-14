@@ -3,7 +3,7 @@
     $husband = [
         'name' => 'Victor Lozada',
         'text' =>
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "Al escribir este texto, siento que el tiempo vuela, que los momentos increíbles de esa primera mirada, esas primeras risas, y esa vez que me di cuenta que mi mejor amiga, era la mujer que deseaba que fuera mi compañera para toda la vida. En ocasiones, la vida nos sorprende y es algo especial pensar que a pesar de que nos separaba la distancia coincidimos en un momento y sólo eso necesitamos. Es emocionante no sólo pensar en compartir nuestras vidas, sino también nuestros sueños, luchas y alegrías hasta que la muerte nos separe. He sido bendecido con tener a una persona tan única y especial como ella, que me entiende y me valora.",
     ];
     $wife = [
         'name' => 'Darlenys Muttach',

@@ -13,9 +13,14 @@
         line-height: 42px;
         text-align: center;
         color: #ffffff;
+        @media screen and (max-width: 990px) {
+            font-size: 24px;
+            line-height: 32px;
+        }
     }
     &__logo {
         max-width: 600px;
+        width: 100%;
     }
     &__date {
         font-family: Cormorant;
@@ -26,6 +31,11 @@
         color: #ffffff;
         position: relative;
         margin-top: auto;
+        @media screen and (max-width: 990px) {
+            font-size: 54px;
+            line-height: 60px;
+
+        }
         &::before {
             content: '';
             position: absolute;
