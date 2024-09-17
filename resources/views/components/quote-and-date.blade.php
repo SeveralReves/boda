@@ -1,7 +1,7 @@
 @php
     $quote = [
         'text' =>
-            'La belleza del amor fiel al pacto entre Cristo y su Iglesia brilla en su máximo esplendor cuando solo Cristo la sustenta',
+            'La belleza del amor fiel al pacto entre Cristo y su Iglesia brilla en su máximo esplendor cuando solo Cristo la sustenta.',
         'name' => 'Jhon Pipper',
     ];
     $date = '02/11/2024'
@@ -15,10 +15,7 @@
         </div>
         <div class="quote_date__date">
             <h2 class="quote_date__date--title">
-                @php
-                    setlocale(LC_TIME, 'es_ES');
-                @endphp
-                {{ strftime('%d %B %Y', strtotime(str_replace('/', '-', $date)))}}
+                02 Noviembre 2024
             </h2>
 
             <div id="date-app">

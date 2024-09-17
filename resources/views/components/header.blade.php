@@ -1,6 +1,6 @@
 @php
-    $title = 'Gracias por ser testigos de nuestra unión con Dios.';
-    $date = '02 11 2024';
+    $title = 'Hemos dicho mutuamente... ¡SÍ! Así que esperamos que tú también lo hagas y nos acompañes a ser testigos de nuestra historia de amor';
+    $date = '02-11-2024';
     $logo = [
         'url' => asset('images/Logo_VC.png'),
         'alt' => 'Logo Victor Darlenys',

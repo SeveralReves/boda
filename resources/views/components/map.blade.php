@@ -1,6 +1,6 @@
 @php
     $map =
-        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.032216794459!2d-67.96287382536651!3d10.258985289860044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e805d85d1268521%3A0xe905aa2fa4acd570!2sSal%C3%B3n%20de%20Fiestas%20La%20Monter%C3%ADa%20Gala!5e0!3m2!1ses-419!2sus!4v1726025032289!5m2!1ses-419!2sus';
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.6432390554937!2d-67.9389394!3d10.290302299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8045000e09f3e1%3A0xb093e6a09983bb0f!2zU2Fsw7NuIExhIE1vbnRlcsOtYSBKYXJkw61u!5e0!3m2!1ses-419!2sus!4v1726539701701!5m2!1ses-419!2sus';
     $title = 'Mapa';
 @endphp
 

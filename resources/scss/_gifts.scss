@@ -6,13 +6,24 @@
     &__text {
         margin-bottom: 30px;
     }
+    &__text_2 {
+        margin-top: 30px;
+        a{
+            color: #024d4a;
+        }
+    }
     &__card {
-        flex: 1;
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(50% - 15px);
         background-color: #fff;
         padding: 40px 60px 40px 20px;
         gap: 10px;
         border-radius: 20px 0px 0px 0px;
         box-shadow: 0px 0px 40px 0px rgba(231, 103, 103, 0.15);
+        @media screen and (max-width: 990px) {
+            width: 100%;
+        }
         &--title {
             font-family: Corinthia;
             font-size: 61px;
@@ -21,10 +32,11 @@
             text-align: left;
             margin-bottom: 40px;
         }
-        &--span{
+        &--span {
             display: flex;
             gap: 20px;
-            img{
+            margin-bottom: 20px;
+            img {
                 max-width: 50px;
             }
         }
@@ -35,7 +47,7 @@
             padding: 10px 20px 10px 20px;
             gap: 10px;
             border-radius: 10px;
-            background: rgba(2, 77, 74, 1);
+            background: #024d4a;
             font-family: Comfortaa;
             font-size: 20px;
             font-weight: 500;
@@ -43,7 +55,10 @@
             text-align: left;
             color: #fff;
             flex: 1;
-            &:not(:last-of-type){
+            @media screen and (max-width: 990px) {
+                font-size: 12px;
+            }
+            &:not(:last-of-type) {
                 margin-bottom: 20px;
             }
         }
@@ -51,6 +66,7 @@
     &__grid {
         display: flex;
         gap: 30px;
+        flex-wrap: wrap;
         @media screen and (max-width: 990px) {
             flex-direction: column;
         }

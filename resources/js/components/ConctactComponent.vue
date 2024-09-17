@@ -8,7 +8,7 @@
                 <!-- Nombre (Input de texto) -->
                 <div class="contact__form--row">
                     <label class="contact__form--label" for="name">
-                        <span class="required">*</span>Nombre:
+                        <span class="required">*</span>Nombre y Apellido:
                     </label>
                     <Field
                         class="contact__form--input"
@@ -52,9 +52,9 @@
                             rules="required"
                         />
                         <label for="attendanceYes" class="contact__form--radio-label">
-                            Yes
+                            Si
                         </label>
-                        <Field
+                        <!-- <Field
                             id="attendanceMaybe"
                             class="contact__form--radio-input"
                             name="attendance"
@@ -65,7 +65,7 @@
                         />
                         <label for="attendanceMaybe" class="contact__form--radio-label">
                             Maybe
-                        </label>
+                        </label> -->
                         <Field
                             id="attendanceNo"
                             class="contact__form--radio-input"
@@ -83,7 +83,7 @@
                 </div>
 
                 <button class="contact__form--button" type="submit">
-                    Send Now!
+                    Enviar
                 </button>
             </form>
         </Form>

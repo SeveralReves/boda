@@ -1,14 +1,14 @@
 @php
     $title = 'Galería';
     $text =
-        'El verdadero amor crece con las dificultades, el falso, se apaga. Por experiencia sabemos que, cuando soportamos pruebas difíciles por alguien a quien queremos, no se derrumba el amor, sino que crece.';
+        'No me pidas que te deje; ni me ruegues que te abandone. Adonde tú vayas iré, y donde tú vivas viviré. Tu pueblo será mi pueblo y tu Dios será mi Dios. <br> Rut 1:16-17 DHH';
     $images = [
         [
             'url' => asset('images/1.png'),
             'alt' => 'gallery 1',
         ],
         [
-            'url' => asset('images/3.png'),
+            'url' => asset('images/7.png'),
             'alt' => 'gallery 3',
         ],
         [
@@ -16,7 +16,7 @@
             'alt' => 'gallery 5',
         ],
         [
-            'url' => asset('images/2.png'),
+            'url' => asset('images/8.png'),
             'alt' => 'gallery 4',
         ],
         [
@@ -43,7 +43,7 @@
             @endforeach
         </div>
         <p class="gallery__text">
-            {{ $text }}
+            {!! $text !!}
         </p>
     </div>
 </div>

@@ -1,6 +1,6 @@
 @php
     $image_bg = [
-        'url' => asset('images/invitation.png'),
+        'url' => asset('images/invitation-1.png'),
         'alt' => 'Invitacion Victor Darlenys',
     ];
     $init_hour = 'Hora de Inicio: 5:00PM';

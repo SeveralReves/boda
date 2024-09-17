@@ -1,16 +1,23 @@
 @php
     $title = 'Regalos';
     $text =
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, ipsum erat pretium, tempus. Molestie ornare amet, placerat aliquet orci arcu pretium. Donec sit mauris tortor tortor tempus urna. Amet blandit tincidunt cras magna in nisl lacus. Duis sem nec viverra risus et at lacinia. Tortor sit.';
+        'Nuestro mejor regalo será su presencia, y si a pesar de todo desean tener un detalle con nosotros, aquí te dejamos nuestros datos:';
     $accounts = [
-        'binance' => 'Open map',
+        'zelle' => [
+            'mail' => 'Thencarlos29@gmail.com',
+        ],
+        'binance' => [
+            'id' => '185687747',
+            'mail' => 'Victorlozada411@gmail.com',
+        ],
         'bank' => [
-            'title' => 'Pago movil',
+            'title' => 'Pago móvil',
             'id' => '28.138.928',
             'phone' => '0412 068 48 44',
             'bank' => 'Mercantil',
         ],
     ];
+    $text_2 = 'Si envías tu regalo, envīanos el capture al ';
 @endphp
 
 <section class="gifts">
@@ -45,14 +52,32 @@
                 <div class="gifts__card--span">
                     <img src="{{ asset('/images/coins.png') }}" alt="binance">
                     <div class="gifts__card--item">
-                        <span>{{ $accounts['binance'] }}</span>
-                        <button onclick="copiarTexto({{ json_encode($accounts['binance']) }})">
+                        <span>{{ $accounts['binance']['id'] }}</span>
+                        <button onclick="copiarTexto({{ json_encode($accounts['binance']['id']) }})">
                             <img src="{{ asset('/images/fi_copy.png') }}" alt="">
                         </button>
                     </div>
                 </div>
+                <div class="gifts__card--item">
+                    <span>{{ $accounts['binance']['mail'] }}</span>
+                    <button onclick="copiarTexto({{ json_encode($accounts['binance']['mail']) }})">
+                        <img src="{{ asset('/images/fi_copy.png') }}" alt="">
+                    </button>
+                </div>
+            </article>
+            <article class="gifts__card">
+                <h3 class="gifts__card--title">Zelle</h3>
+                <div class="gifts__card--item">
+                    <span>{{ $accounts['zelle']['mail'] }}</span>
+                    <button onclick="copiarTexto({{ json_encode($accounts['zelle']['mail']) }})">
+                        <img src="{{ asset('/images/fi_copy.png') }}" alt="">
+                    </button>
+                </div>
             </article>
         </div>
+        <p class="gifts__text_2 subtitle">
+            {{ $text_2 }} <a href="http://wa.me/+584120684844" target="_blank" rel="noopener noreferrer">0412-0684844</a>
+        </p>
     </div>
 </section>
 
