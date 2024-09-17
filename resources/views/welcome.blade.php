@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laravel con Blade y Vue</title>
+    <title>Boda Victor y Darlenys</title>
+    <link rel="icon" href="{{ asset('images/Logo_VC.png') }}" type="image/x-icon">
+
     @vite('resources/scss/app.scss')
 </head>
 <body>
