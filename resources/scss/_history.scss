@@ -15,7 +15,7 @@
         &.husband {
             @media screen and (min-width: 990px) {
                 #{$me}--title {
-                    text-align: right;
+                    text-align: center;
                 }
                 #{$me}--text {
                     text-align: right;
